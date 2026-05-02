@@ -1,0 +1,20 @@
+import time
+name = input("Xin chào~ Rất vui khi được gặp bạn! Tên bạn là gì?")
+print("Chào", name, "nhé, hãy cùng chơi một trò chơi nhé!Bạn có nghĩ rằng có rất nhiều quan niệm sai lầm về chuột không? Hãy cùng nhau vượt qua những hiểu lầm đó và tìm ra lời giải đáp cho bí ẩn này nhé!")
+time.sleep(4)
+bệnh = input("Nhiều người cho rằng chuột chính là con vật gây ra bệnh dịch hạch. Vậy liệu sự thật có phải là thế? Hãy trả lời có hoặc không nhé (e.g: yes)! ")
+if bệnh == "no":
+    print("Chính xác là như vậy! Chính con bọ chét bé xíu mang vi khuẩn gây bệnh mới chính là thủ phạm!")
+if bệnh == "yes":
+    print("Không, chuột không phải là thủ phạm đâu! Thực ra, chính con bọ chét mang vi khuẩn gây bệnh mới chính là thủ phạm đấy!")
+else:
+    print("Mình không chắc mình hiểu được những gì bạn nói, nhưng câu trả lời là không nhé! Con bọ chét mang vi khuẩn gây bệnh mới chính là thủ phạm cơ!")
+time.sleep(3.8)
+hôi = input("Có người nói: Chuột dù sống trong cống rất sạch sẽ. Bạn có đồng tình không vậy (e.g: no)?")
+if hôi == "no":
+    print("Không phải đâu! Chuột rất chăm chỉ trong việc làm sạch cơ thể của mình đó!")
+if bệnh == "yes":
+    print("Đúng vậy! Chuột cực kì chăm chỉ trong việc chải chuốt bộ lông của mình vài ba lần trong ngày, giống như mèo vậy!")
+else:
+    print("Mình không chắc mình hiểu được những gì bạn nói, nhưng câu trả lời là có! Chuột rất hay chải chuốt bộ lông của mình đấy!")
+#Chưa hoàn thiện
