@@ -26,10 +26,10 @@ time.sleep(3.8)
 mìn = input("Chuột không làm được gì phải không? Nhiều người cho rằng chuột không quá vô dụng. Bạn có thấy như vậy không (e.g: yes)? ")
 if mìn == "no":
     print("Thực ra chuột làm được nhiều thứ bạn ạ, không phải chỉ có chui xuống cống đâu!"
-          + "Chuột có thể dò mìn ở Châu Phi, và còn có thể được sử dụng trong các thí nghiệm khoa học nữa đấy!")
+          + "Chuột có thể dò mìn, và còn có thể được sử dụng trong các thí nghiệm khoa học nữa đấy!")
 elif mìn == "yes":
-    print("Bạn thật am hiểu về chuột! Đúng vậy - chuột có thể dò mìn ở Châu Phi, và còn có thể được sử dụng trong các thí nghiệm khoa học nữa!")
+    print("Bạn thật am hiểu về chuột! Đúng vậy - chuột có thể dò mìn và còn có thể được sử dụng trong các thí nghiệm khoa học nữa!")
 else:
-    print("Mình không chắc mình hiểu được những gì bạn nói, nhưng câu trả lời là có! Chuột có thể dò mìn ở Châu Phi đó!")
+    print("Mình không chắc mình hiểu được những gì bạn nói, nhưng câu trả lời là có! Chuột có thể dò mìn đó!")
 time.sleep(3.5)
 print("Cảm ơn bạn rất nhiều vì đã tham gia trò chơi! Sau khi chơi trò chơi này, hãy đừng ghét bỏ những chú chuột đáng thương nhé!")
