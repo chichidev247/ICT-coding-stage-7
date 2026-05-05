@@ -1,5 +1,11 @@
 #MATH 
 import time
-print ("Hi! I'm Dr.MaTh and sometimes people call me MT ah!"
+print ("Hi! I'm Dr.MaTh and sometimes people call me MT ah."
        +" I'm here to teach you about Math for grade 2... Don't worry, it won't be hard!")
+print ("You are going to a forest.")
 one = input("A witch come and ask you: 74 + 23 = ?")
+if one == "97":
+    print("The witch smile and let you go...")
+else:
+    print("The witch smile give you an apple... You eat it and you sleep forever, you never wake up again..."
+           +"END")
