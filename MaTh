@@ -1,4 +1,4 @@
-#MATH 
+#MaTh
 import time
 print ("Hi! I'm Dr.MaTh and sometimes people call me MT ah."
        +" I'm here to teach you about Math for grade 2... Don't worry, it won't be hard!")
@@ -16,9 +16,17 @@ two = input("You meet a fox. It say: 'If you cannot answer me, you must go to th
             + "If you correct, go to the right path. Now this is the question: 7 × 5 = ? ")
 if two == "35":
     print("You go to the right path..."
-          + "You travel through easily, and you met a wonderland with many candies...")
+          + "You travel through easily, and you met a wonderland with many unique things...")
 else:
     print("You go to left path... You fall into a deep hole, and you never climb up again..."
            +"END")
     exit()
 time.sleep(2)
+three = input("You meet a dragon. It says hello to you. It ask you: "
+              + "I have 63 bananas. I eat 3 bananas in a day. How many day do I need to finish all the bananas? ")
+if three == "21":
+    print("The dragon thanks you, and give you a shield to go through a lava stage...")
+else:
+    print("TThe dragon feel angry and it eats you..."
+           +"END")
+    exit()
