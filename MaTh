@@ -1,4 +1,4 @@
-#MaTh
+#MATH 
 import time
 print ("Hi! I'm Dr.MaTh and sometimes people call me MT ah."
        +" I'm here to teach you about Math for grade 2... Don't worry, it won't be hard!")
@@ -25,8 +25,18 @@ time.sleep(2)
 three = input("You meet a dragon. It says hello to you. It ask you: "
               + "I have 63 bananas. I eat 3 bananas in a day. How many day do I need to finish all the bananas? ")
 if three == "21":
-    print("The dragon thanks you, and give you a shield to go through a lava stage...")
+    print("The dragon thank you, and give you a shield to go through a lava stage...")
 else:
-    print("TThe dragon feel angry and it eats you..."
+    print("The dragon feels angry and it eats you..."
+           +"END")
+    exit()
+time.sleep(2)
+four = input("In lava, you meet a hot ghost. It booo you. It asks: "
+              + "I want to boo everyone that I meet. There are always 10 people meet me in one day. Only 10. "
+             +"I boo 5 times when meet 1 people. So how many times a day do I have to boo? ")
+if four == "50":
+    print("It 'thank boo', and let you go into a magic castle...")
+else:
+    print("It haunts you. "
            +"END")
     exit()
