@@ -40,3 +40,17 @@ else:
     print("It haunts you. "
            +"END")
     exit()
+time.sleep(2)
+five = input("You meet a soldier. He says: You are here to meet princess Mocha, I think. "
+              +"Princess Mocha only accept smart people. So answer me: " 
+              +"I bought three tomatoes, then seven rainbow flowers to give to my girlfriend, then I stopped by the bakery "
+              +"to buy a dog-shaped birthday cake for my child, and then, feeling inspired, I bought two Lego sets for my nephew."
+              +"How many things did I buy? ")
+if five == "13":
+    print("The soldier let you meet princess Mocha. She is so beautiful! She smile and says: I did not meet anyone in this month!"
+              +"people cannot overcome the problem. You are so smart! Thank you for meeting me, and I wish you to always sucess!")
+else:
+    print("'GET OUT!', said the soldier..."
+           +"END")
+    exit()
+
