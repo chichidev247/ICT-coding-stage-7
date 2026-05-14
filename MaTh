@@ -3,6 +3,7 @@ import time
 print ("Hi! I'm Dr.MaTh and sometimes people call me MT ah."
        +" I'm here to teach you about Math for grade 2... Don't worry, it won't be hard!")
 time.sleep(1)
+present = input("What do you want when you finished your journey?")
 print ("You are going to a forest.")
 one = input("A witch come and ask you: 74 + 23 = ? ")
 if one == "97":
@@ -47,16 +48,15 @@ five = input("You meet a soldier. He says: You are here to meet princess Mocha, 
               +"to buy a dog-shaped birthday cake for my child, and then, feeling inspired, I bought two Lego sets for my nephew."
               +"How many things did I buy? ")
 if five == "13":
-    print("The soldier let you meet princess Mocha. She is so beautiful! She smile and says: I did not meet anyone in this month!"
-              +"people cannot overcome the problem. You are so smart! Thank you for meeting me, and I wish you to always sucess!")
-       print("  💗   💗  ")
-       print(" 💗💗 💗💗 ")
-       print("  💗💗💗💗  ")
-       print("   💗💗💗   ")
-       print("    💗💗    ")
-       print("     💗     ")
+    print("The soldier let you meet princess Mocha. She is so beautiful! She smile and says: I did not meet anyone in this month because "
+              +"people cannot overcome the problem. You are so smart! Thank you for meeting me, and I wish you to always sucess (She give you", present, ")!" )
+    print("  💗   💗  ")
+    print(" 💗💗 💗💗 ")
+    print("  💗💗💗💗  ")
+    print("   💗💗💗   ")
+    print("    💗💗    ")
+    print("     💗     ")
 else:
     print("'GET OUT!', said the soldier..."
            +"END")
     exit()
-
