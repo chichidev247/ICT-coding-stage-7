@@ -1,10 +1,15 @@
 #MATH 
 import time
+def slow(text):
+    for i in text:
+        print(i, end="", flush=True)
+        time.sleep(0.1)
+    print()
 print ("Hi! I'm Dr.MaTh and sometimes people call me MT ah."
        +" I'm here to teach you about Math for grade 2... Don't worry, it won't be hard!")
 time.sleep(1)
 present = input("What do you want when you finished your journey?")
-print ("You are going to a forest.")
+slow("You are going to a forest...")
 one = input("A witch come and ask you: 74 + 23 = ? ")
 if one == "97":
     print("The witch smile and let you go...")
@@ -13,8 +18,8 @@ else:
            + "END")
     exit()
 time.sleep(2)
-two = input("You meet a fox. It say: 'If you cannot answer me, you must go to the left path.'."
-            + "If you correct, go to the right path. Now this is the question: 7 × 5 = ? ")
+two = input("You meet a fox. It says: 'If you cannot answer me, you must go to the left path.'."
+            + " If you are correct, go to the right path. Now this is the question: 7 × 5 = ? ")
 if two == "35":
     print("You go to the right path..."
           + "You travel through easily, and you met a wonderland with many unique things...")
