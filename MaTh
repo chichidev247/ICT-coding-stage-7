@@ -1,66 +1,111 @@
 #MATH 
+
 import time
+
 def slow(text):
     for i in text:
         print(i, end="")
         time.sleep(0.07)
     print()
+
 print ("Hi! I'm Dr.MaTh and sometimes people call me MT ah."
        +" I'm here to teach you about Math for grade 2... Don't worry, it won't be hard!")
+
 time.sleep(1)
-present = input("What do you want when you finished your journey?")
+
+present = input("What do you want when you finished your journey? ")
+
 slow("You are going to a forest...")
+
+# WITCH
 one = input("A witch come and ask you: 74 + 23 = ? ")
+
 if one == "97":
     print("The witch smile and let you go...")
 else:
     print("The witch smile give you an apple... You eat it and you sleep forever, you never wake up again..."
            + "END")
+
+    print("\n--- DREAM ENDING ---")
+    print("...You wake up in your bed. Was the forest only a dream?")
     exit()
+
 time.sleep(2)
+
+# FOX
 two = input("You meet a fox. It says: 'If you cannot answer me, you must go to the left path.'."
             + " If you are correct, go to the right path. Now this is the question: 7 × 5 = ? ")
+
 if two == "35":
     print("You go to the right path..."
           + "You travel through easily, and you met a wonderland with many unique things...")
 else:
     print("You go to left path... You fall into a deep hole, and you never climb up again..."
            +"END")
+
+    print("\n--- DREAM ENDING ---")
+    print("...You suddenly wake up before hitting the ground.")
     exit()
+
 time.sleep(2)
+
+# DRAGON
 three = input("You meet a dragon. It says hello to you. It ask you: "
               + "I have 63 bananas. I eat 3 bananas in a day. How many day do I need to finish all the bananas? ")
+
 if three == "21":
     print("The dragon thank you, and give you a shield to go through a lava stage...")
 else:
     print("The dragon feels angry and it eats you..."
            +"END")
+
+    print("\n--- DREAM ENDING ---")
+    print("...You wake up hearing a dragon roar far away...")
     exit()
+
 time.sleep(2)
+
+# GHOST
 four = input("In lava, you meet a hot ghost. It booo you. It asks: "
               + "I want to boo everyone that I meet. There are always 10 people meet me in one day. Only 10. "
              +"I boo 5 times when meet 1 people. So how many times a day do I have to boo? ")
+
 if four == "50":
     print("It 'thank boo', and let you go into a magic castle...")
 else:
     print("It haunts you. "
            +"END")
+
+    print("\n--- DREAM ENDING ---")
+    print("...You wake up hearing someone whisper 'booo...'")
     exit()
+
 time.sleep(2)
+
+# SOLDIER
 five = input("You meet a soldier. He says: 'You are here to meet princess Mocha, I think. "
               +"Princess Mocha only accept smart people. So answer me: " 
               +"I bought three tomatoes, then seven rainbow flowers to give to my girlfriend, then I stopped by the bakery "
               +"to buy a dog-shaped birthday cake for my child, and then, feeling inspired, I bought two Lego sets for my nephew."
               +"How many things did I buy?' ")
+
 if five == "13":
     print("The soldier let you meet princess Mocha. She is so beautiful! She smile and says: I did not meet anyone in this month because "
               +"people cannot overcome the problem. You are so smart! Thank you for meeting me, and I wish you to always sucess (She give you", present, ")!" )
+
     print("  !   !  ")
     print(" !!! !!! ")
     print("  !!!!!  ")
     print("   !!!   ")
     print("    !    ")
+
+    print("\n--- TRUE ENDING ---")
+    print("Princess Mocha smiles at you happily 💖")
+
 else:
     print("'GET OUT!', said the soldier..."
            +"END")
+
+    print("\n--- DREAM ENDING ---")
+    print("...You wake up in front of a strange castle that slowly disappears...")
     exit()
