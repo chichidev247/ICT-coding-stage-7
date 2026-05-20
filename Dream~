@@ -1,0 +1,19 @@
+# Dream
+import random
+import time
+def christmas_dream():
+    print("You are going to CHRISTMAS DREAM! You will open presents that Santa gives you and help decorate trees!")
+    time.sleep(2)
+    presents = ("new socks!", "a Lego set!", "a cute crochet!", "a stuffed animal!", "a board game!", "a puzzle game!")
+    christ = random.choice(presents)
+    print("WOW! You have got", christ, "That's brilliant!")
+    time.sleep(2)
+    print("Now, you've got present, so let's decorate trees with everyone!")
+    time.sleep(2)
+    print("There are several things that we use to decorate Christmas tree. These are: string lights, candy canes, ornaments,"
+          "socks, wealth, the big star on top - the most important one, and fake presents (yes, fake, so do not open it :P ) under the tree.")
+    orna = input("To help people, you need to type 'ornaments' five times! Let's go (e.g: pink, pink, pink)! ")
+    if orna == "ornaments, ornaments, ornaments, ornaments, ornaments":
+        print("Yuppi! You help people hang it on the tree!")
+    else:
+        print("Oh no, that is not correct!")
