@@ -31,3 +31,13 @@ def christmas_dream():
     else:
         print("Ohh, you cannot hang it on top of the tree, but you help a lot! The tree looks very pretty now! You want to enjoy"
               +" Christmas with your new friends, but... You wake up and see - now it is the summer...")
+def mushroom_dream():
+    print("You found yourself in a fairy tale with everything is mushrooms. A small cute fairy tale meet you and give you mushrooms!")
+    time.sleep(2)
+    mush = ("goat belly mushrooms!", "shiitake mushrooms!", "cordyceps mushrooms!", "ganoderma mushrooms!", "button mushrooms!", "chicken drumstick mushrooms!")
+    room = random.choice(mush)
+    print("Look! You have got", room, "That's brilliant!")
+    time.sleep(2)
+    print("Now, you've got mushrooms, so now let's decorate mushrooms party with everyone!")
+    time.sleep(2)
+
