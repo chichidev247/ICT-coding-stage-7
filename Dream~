@@ -40,4 +40,19 @@ def mushroom_dream():
     time.sleep(2)
     print("Now, you've got mushrooms, so now let's decorate mushrooms party with everyone!")
     time.sleep(2)
-
+    blue = input("To make the mushrooms feel yummy, let's 'dot' it! Let's choose colors for the dots in a blue mushroom! Pick: Yellow, white, red or green!"
+          +" (Just write Y, W, R, G only)")
+    if blue == "W" or "Y":
+        print("Wow! Your color coordination skills are amazing! You make the mushroom feel cute and very great!")
+    if blue == "R" or "G":
+        print("That's cool! It now looks colorful and stylish!")
+    else:
+        print ("I don't really sure if I understand you...")
+    decor = input("Let's hang this one: Decorative hanging string! Choose the color: Rainbow, pink-white-blue, random (...)"
+                  +"or yellow-red! (Only R (rainbow), P, Ra, Y)")
+    if decor == "R" or "Y":
+        print("Horray! It's great! You make it!")
+    if decor == "P" or "Ra":
+        print("Yeah! You make a good decision!")
+    else:
+        print("Oh no, I don't understand you!")
