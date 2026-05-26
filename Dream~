@@ -1,4 +1,4 @@
-# Dream
+#Dream
 import random
 import time
 def christmas_dream():
@@ -13,24 +13,33 @@ def christmas_dream():
     print("There are several things that we use to decorate Christmas tree. These are: string lights, candy canes, ornaments, "
           +"socks, wealth, the big star on top - the most important one, and fake presents (yes, fake, so do not open it :P ) under the tree.")
     orna = input("To help people, you need to type 'orna' five times! Let's go (e.g: pink, pink, pink)! ")
+    time.sleep(2)
     if orna == "orna, orna, orna, orna, orna":
         print("Yuppi! You help people hang it on the tree!")
     else:
         print("Oh no, that is not correct!")
+    time.sleep(2)
     string = input("Now let's wrap colorful string lights around the Christmas tree! Type 'color' 3 times (yell, yell, yell, yell)! ")
+    time.sleep(2)
     if string == "color, color, color":
         print("Horray! You wrap it perfectly!")
     else:
         print("Oh no, that is not correct!")
+    time.sleep(2)
     star = input("Then, slowly but surely, you help people decorate the tree. Now it looks beautiful! Wait... there is something missing..."
                  +"The star! The most sparkling, the most wonderful thing on the Christmas tree! "
                  +"Type 'star' one time, then our tree will finish! ")
+    time.sleep(2)
     if star == "star":
         print("Wow! Everything looks beautiful! It lights all the night like a big torch! Everyone thank you, and give you more and more"
               +" presents... But... it's time to wake up!")
     else:
         print("Ohh, you cannot hang it on top of the tree, but you help a lot! The tree looks very pretty now! You want to enjoy"
               +" Christmas with your new friends, but... You wake up and see - now it is the summer...")
+    time.sleep(2)
+    exit()
+
+    
 def mushroom_dream():
     print("You found yourself in a fairy tale with everything is mushrooms. A small cute fairy tale meet you and give you mushrooms!")
     time.sleep(2)
@@ -41,18 +50,39 @@ def mushroom_dream():
     print("Now, you've got mushrooms, so now let's decorate mushrooms party with everyone!")
     time.sleep(2)
     blue = input("To make the mushrooms feel yummy, let's 'dot' it! Let's choose colors for the dots in a blue mushroom! Pick: Yellow, white, red or green!"
-          +" (Just write Y, W, R, G only)")
+          +" (Just write Y, W, R, G only) ")
+    time.sleep(2)
     if blue == "W" or "Y":
         print("Wow! Your color coordination skills are amazing! You make the mushroom feel cute and very great!")
     if blue == "R" or "G":
         print("That's cool! It now looks colorful and stylish!")
     else:
         print ("I don't really sure if I understand you...")
+    time.sleep(2)
     decor = input("Let's hang this one: Decorative hanging string! Choose the color: Rainbow, pink-white-blue, random (...)"
-                  +"or yellow-red! (Only R (rainbow), P, Ra, Y)")
+                  +"or yellow-red! (Only R (rainbow), P, Ra, Y) ")
+    time.sleep(2)
     if decor == "R" or "Y":
         print("Horray! It's great! You make it!")
     if decor == "P" or "Ra":
         print("Yeah! You make a good decision!")
     else:
         print("Oh no, I don't understand you!")
+    time.sleep(2)
+    mushy = input("For a hour later, you build and decorate more and more mushrooms. You make this mushroom festival feel warm!"
+                  +" Lastly, you use bouncing air to make the mushroom bouncing! Type 'bounce', then everything will done! ")
+    time.sleep(2)
+    if mushy == "bounce":
+        print("Lookkk! It is the besttt mushroom festival! Everyone admire you! People give you many mushrooms to celebrate you - the hero!"
+              +" But... You wake up and saw your teacher with an angry face...")
+    else:
+        print("Ohh, you cannot bounce it, but you help people many things. You want to play with this bouncy mushroom, but..."
+              +"You wake up and see... You are dreaming only...")
+    time.sleep(2)
+    exit()
+
+    
+dreams = [christmas_dream, mushroom_dream]
+last = random.choice(dreams)()
+print(last)
+
