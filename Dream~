@@ -11,7 +11,7 @@ def christmas_dream():
     print("Now, you've got present, so now let's decorate trees with everyone!")
     time.sleep(2)
     print("There are several things that we use to decorate Christmas tree. These are: string lights, candy canes, ornaments, "
-          +"socks, wealth, the big star on top - the most important one, and fake presents (yes, fake, so do not open it :P ) under the tree.")
+          +"socks, wreath, the big star on top - the most important one, and fake presents (yes, fake, so do not open it :P ) under the tree.")
     orna = input("To help people, you need to type 'orna' five times! Let's go (e.g: pink, pink, pink)! ")
     time.sleep(2)
     if orna == "orna, orna, orna, orna, orna":
@@ -52,9 +52,9 @@ def mushroom_dream():
     blue = input("To make the mushrooms feel yummy, let's 'dot' it! Let's choose colors for the dots in a blue mushroom! Pick: Yellow, white, red or green!"
           +" (Just write Y, W, R, G only) ")
     time.sleep(2)
-    if blue == "W" or "Y":
+    if blue == "W" or blue == "Y":
         print("Wow! Your color coordination skills are amazing! You make the mushroom feel cute and very great!")
-    if blue == "R" or "G":
+    elif blue == "R" or blue == "G":
         print("That's cool! It now looks colorful and stylish!")
     else:
         print ("I don't really sure if I understand you...")
@@ -64,7 +64,7 @@ def mushroom_dream():
     time.sleep(2)
     if decor == "R" or "Y":
         print("Horray! It's great! You make it!")
-    if decor == "P" or "Ra":
+    elif decor == "P" or decor == "Ra":
         print("Yeah! You make a good decision!")
     else:
         print("Oh no, I don't understand you!")
